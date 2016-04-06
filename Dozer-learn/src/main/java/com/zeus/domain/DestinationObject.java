@@ -1,5 +1,9 @@
 package com.zeus.domain;
 
+import org.dozer.Mapping;
+
+import java.util.Date;
+
 /**
  * Created by wangqi on 16/4/6.
  */
@@ -8,6 +12,27 @@ public class DestinationObject {
     private String password;
     private long age;
     private String gender;
+
+    private SubItemDes subItemDes;
+
+    public SubItemDes getSubItemDes() {
+        return subItemDes;
+    }
+
+    public void setSubItemDes(SubItemDes subItemDes) {
+        this.subItemDes = subItemDes;
+    }
+
+    @Mapping("birthday")
+    private Date date;
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
 
     public String getUsername() {
         return username;
@@ -48,6 +73,8 @@ public class DestinationObject {
                 ", password='" + password + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
+                ", subItemDes=" + subItemDes +
+                ", date=" + date +
                 '}';
     }
 }

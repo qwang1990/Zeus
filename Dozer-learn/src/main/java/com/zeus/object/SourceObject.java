@@ -1,5 +1,8 @@
 package com.zeus.object;
 
+import org.dozer.Mapping;
+
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -10,7 +13,30 @@ public class SourceObject {
     private String username;
     private String password;
     private int age;
+   // @Mapping("gender")
     private boolean alive;
+
+    private Date birthday;
+
+  //  @Mapping("subItemDes")
+    private SubItem subItem;
+
+    public SubItem getSubItem() {
+        return subItem;
+    }
+
+    public void setSubItem(SubItem subItem) {
+        this.subItem = subItem;
+    }
+
+    public Date getBirthday() {
+        System.out.println("executed here!");
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
 
     public String getUsername() {
         return username;
@@ -44,6 +70,7 @@ public class SourceObject {
         this.alive = alive;
     }
 
+
     @Override
     public String toString() {
         return "SourceObject{" +
@@ -51,6 +78,8 @@ public class SourceObject {
                 ", password='" + password + '\'' +
                 ", age=" + age +
                 ", alive=" + alive +
+                ", birthday=" + birthday +
+                ", subItem=" + subItem +
                 '}';
     }
 }
