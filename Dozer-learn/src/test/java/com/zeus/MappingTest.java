@@ -1,0 +1,75 @@
+package com.zeus;
+
+import com.zeus.domain.DestinationObject;
+import com.zeus.object.SourceObject;
+import com.zeus.object.SubItem;
+import org.dozer.DozerBeanMapper;
+import org.junit.Before;
+import org.junit.Test;
+
+import java.util.*;
+
+/**
+ * Created by wangqi on 16/4/6.
+ */
+public class MappingTest {
+
+    DozerBeanMapper mapper;
+    SourceObject sourceObject;
+
+    @Before
+    public void prepareForMapping() {
+        mapper = new DozerBeanMapper();
+
+        /*
+         *这里注释掉的话DestinationObject中的与SourceObject属性不同的元素就无法自动影视
+         */
+        List myMappingFiles = new ArrayList();
+        myMappingFiles.add("mapMapping.xml");
+        mapper.setMappingFiles(myMappingFiles);
+
+
+        sourceObject = new SourceObject();
+        sourceObject.setAge(1);
+        sourceObject.setAlive(true);
+        sourceObject.setUsername("wang");
+        sourceObject.setPassword("qi");
+        sourceObject.setBirthday(new Date());
+        sourceObject.setSubItem(new SubItem("shanghai", Arrays.asList("wang","qi")));
+    }
+
+    //
+    @Test
+    public void testNormal() {
+        DestinationObject destObject =
+                mapper.map(sourceObject, DestinationObject.class);
+        System.out.println(destObject);
+    }
+
+    @Test
+    public void testMapVSObject() {
+        Map<String,Object> myTestMapping = new HashMap<String,Object>();
+        myTestMapping = mapper.map(sourceObject,Map.class);
+
+        for(Map.Entry<String, Object> entry:myTestMapping.entrySet()){
+            System.out.println(entry.getKey()+"--->"+entry.getValue());
+        }
+
+        SourceObject sourceObject1 = mapper.map(myTestMapping,SourceObject.class);
+        System.out.println(sourceObject1);
+    }
+
+    /**
+     * 因为配置,此处的map中对应sourceObject对象的alive的key值将变为map's alive
+     */
+    @Test
+    public void testCustomMapKey() {
+        Map<String,Object> myTestMapping = new HashMap<String,Object>();
+        myTestMapping = mapper.map(sourceObject,Map.class,"1");
+        for(Map.Entry<String, Object> entry:myTestMapping.entrySet()){
+            System.out.println(entry.getKey()+"--->"+entry.getValue());
+        }
+
+    }
+
+}

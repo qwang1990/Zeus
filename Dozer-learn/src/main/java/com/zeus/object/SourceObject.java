@@ -8,8 +8,13 @@ import java.util.List;
 /**
  * Created by wangqi on 16/4/6.
  */
+enum Status {
+    PROCESSING, SUCCESS, ERROR
+}
+
 public class SourceObject {
 
+    private Status status;
     private String username;
     private String password;
     private int age;
@@ -21,6 +26,18 @@ public class SourceObject {
   //  @Mapping("subItemDes")
     private SubItem subItem;
 
+    public SourceObject() {
+        status = Status.SUCCESS;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+
     public SubItem getSubItem() {
         return subItem;
     }
@@ -30,7 +47,6 @@ public class SourceObject {
     }
 
     public Date getBirthday() {
-        System.out.println("executed here!");
         return birthday;
     }
 
@@ -74,7 +90,8 @@ public class SourceObject {
     @Override
     public String toString() {
         return "SourceObject{" +
-                "username='" + username + '\'' +
+                "status=" + status +
+                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", age=" + age +
                 ", alive=" + alive +

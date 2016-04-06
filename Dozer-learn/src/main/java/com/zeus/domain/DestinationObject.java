@@ -7,11 +7,16 @@ import java.util.Date;
 /**
  * Created by wangqi on 16/4/6.
  */
+enum DestinatoinStatus {
+    PROCESSING, SUCCESS, ERROR
+}
+
 public class DestinationObject {
     private String username;
     private String password;
     private long age;
     private String gender;
+    private DestinatoinStatus destinatoinStatus;
 
     private SubItemDes subItemDes;
 
@@ -23,7 +28,6 @@ public class DestinationObject {
         this.subItemDes = subItemDes;
     }
 
-    @Mapping("birthday")
     private Date date;
 
     public Date getDate() {
@@ -66,6 +70,14 @@ public class DestinationObject {
         this.gender = gender;
     }
 
+    public DestinatoinStatus getDestinatoinStatus() {
+        return destinatoinStatus;
+    }
+
+    public void setDestinatoinStatus(DestinatoinStatus destinatoinStatus) {
+        this.destinatoinStatus = destinatoinStatus;
+    }
+
     @Override
     public String toString() {
         return "DestinationObject{" +
@@ -73,6 +85,7 @@ public class DestinationObject {
                 ", password='" + password + '\'' +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
+                ", destinatoinStatus=" + destinatoinStatus +
                 ", subItemDes=" + subItemDes +
                 ", date=" + date +
                 '}';
