@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a4982b-d9b5-4ceb-83ba-2cbe8b0eb6c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/domain/DestinatoinStatus.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/object/Status.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/test/com/zeus/MappingTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin.idx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/results.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/classes/com.zeus.MappingTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/css/base-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/js/report.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/packages/com.zeus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/TEST-com.zeus.MappingTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/MappingTrigger.class" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/MappingTrigger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/domain/DestinationObject.class" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/domain/DestinationObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/domain/SubItemDes.class" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/domain/SubItemDes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/object/SourceObject.class" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/object/SourceObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/object/SubItem.class" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/object/SubItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/resources/main/mapMapping.xml" afterPath="$PROJECT_DIR$/Dozer-learn/build/resources/main/mapMapping.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java" afterPath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/domain/DestinationObject.java" afterPath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/domain/DestinationObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/object/SourceObject.java" afterPath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/object/SourceObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/src/main/resources/mapMapping.xml" afterPath="$PROJECT_DIR$/Dozer-learn/src/main/resources/mapMapping.xml" />
     </list>
     <ignored path="Zeus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +27,8 @@
             <file leaf-file-name="mapMapping.xml" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/resources/mapMapping.xml">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.6923077">
-                    <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+                  <state vertical-scroll-proportion="0.86153847">
+                    <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
                     <folding />
                   </state>
                 </provider>
@@ -134,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/domain/DestinationObject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#626#627#0" expanded="true" />
@@ -195,11 +165,9 @@
       <file leaf-file-name="MappingTrigger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36082473">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.085910656">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1277,7 +1245,7 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14749734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16027689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1361,9 +1329,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,18 +1474,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/resources/mapMapping.xml">
+    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6923077">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1317#1332#0" expanded="true" />
+            <element signature="e#1862#1877#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/domain/DestinationObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#626#627#0" expanded="true" />
@@ -1534,25 +1504,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java">
+    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1317#1332#0" expanded="true" />
-            <element signature="e#1862#1877#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.085910656">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java">
+    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/resources/mapMapping.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36082473">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.86153847">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
