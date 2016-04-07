@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6a4982b-d9b5-4ceb-83ba-2cbe8b0eb6c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/util/DozerHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/MappingTrigger.class" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/MappingTrigger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/classes/test/com/zeus/MappingTest.class" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/test/com/zeus/MappingTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/classes/com.zeus.MappingTest.html" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/classes/com.zeus.MappingTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/packages/com.zeus.html" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/packages/com.zeus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/test-results/TEST-com.zeus.MappingTest.xml" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/TEST-com.zeus.MappingTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java" afterPath="$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java" />
-    </list>
+    <list default="true" id="b6a4982b-d9b5-4ceb-83ba-2cbe8b0eb6c3" name="Default" comment="" />
     <ignored path="Zeus.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/Dozer-learn/.gradle/" />
