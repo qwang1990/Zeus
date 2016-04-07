@@ -23,6 +23,8 @@ public class SourceObject {
 
     private Date birthday;
 
+    private List<SubItem> subItemList;
+
   //  @Mapping("subItemDes")
     private SubItem subItem;
 
@@ -86,6 +88,14 @@ public class SourceObject {
         this.alive = alive;
     }
 
+    public List<SubItem> getSubItemList() {
+        return subItemList;
+    }
+
+    public void setSubItemList(List<SubItem> subItemList) {
+        this.subItemList = subItemList;
+    }
+
 
     @Override
     public String toString() {
@@ -96,6 +106,7 @@ public class SourceObject {
                 ", age=" + age +
                 ", alive=" + alive +
                 ", birthday=" + birthday +
+                ", subItemList=" + subItemList +
                 ", subItem=" + subItem +
                 '}';
     }

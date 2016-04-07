@@ -1,8 +1,10 @@
 package com.zeus.domain;
 
+import com.zeus.object.SubItem;
 import org.dozer.Mapping;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by wangqi on 16/4/6.
@@ -20,6 +22,8 @@ public class DestinationObject {
 
     private SubItemDes subItemDes;
 
+    private List<SubItemDes> subItemList;
+
     public SubItemDes getSubItemDes() {
         return subItemDes;
     }
@@ -36,6 +40,14 @@ public class DestinationObject {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    public List<SubItemDes> getSubItemList() {
+        return subItemList;
+    }
+
+    public void setSubItemList(List<SubItemDes> subItemListt) {
+        this.subItemList = subItemListt;
     }
 
     public String getUsername() {
@@ -87,6 +99,7 @@ public class DestinationObject {
                 ", gender='" + gender + '\'' +
                 ", destinatoinStatus=" + destinatoinStatus +
                 ", subItemDes=" + subItemDes +
+                ", subItemList=" + subItemList +
                 ", date=" + date +
                 '}';
     }

@@ -13,12 +13,23 @@ public class SubItem {
   //  @Mapping("fam")
     private List<String> family;
 
+    private int size;
+
     public SubItem() {
     }
 
-    public SubItem(String address, List<String> family) {
+    public SubItem(String address, List<String> family,int size) {
         this.address = address;
         this.family = family;
+        this.size = size;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
     }
 
     public String getAddress() {
@@ -42,6 +53,7 @@ public class SubItem {
         return "SubItem{" +
                 "address='" + address + '\'' +
                 ", family=" + family +
+                ", size=" + size +
                 '}';
     }
 }

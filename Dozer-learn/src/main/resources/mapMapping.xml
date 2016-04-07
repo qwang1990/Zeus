@@ -31,6 +31,10 @@
             <a>status</a>
             <b>destinatoinStatus</b>
         </field>
+      <!--  <field>
+            <a>subItemList</a>
+            <b>subItemLists</b>
+        </field>-->
         <!-- Any custom field mapping xml would go here -->
     </mapping>
 

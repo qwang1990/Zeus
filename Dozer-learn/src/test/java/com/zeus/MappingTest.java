@@ -37,12 +37,14 @@ public class MappingTest {
         sourceObject.setUsername("wang");
         sourceObject.setPassword("qi");
         sourceObject.setBirthday(new Date());
-        sourceObject.setSubItem(new SubItem("shanghai", Arrays.asList("wang","qi")));
+        sourceObject.setSubItem(new SubItem("shanghai", Arrays.asList("wang","qi"),1));
+        sourceObject.setSubItemList(Arrays.asList(new SubItem("shanghai1", Arrays.asList("wang1","qi1"),2),new SubItem("shanghai2", Arrays.asList("wang2","qi2"),3)));
     }
 
     //
     @Test
     public void testNormal() {
+        System.out.println(sourceObject);
         DestinationObject destObject =
                 mapper.map(sourceObject, DestinationObject.class);
         System.out.println(destObject);

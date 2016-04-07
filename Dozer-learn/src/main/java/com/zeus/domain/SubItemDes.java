@@ -8,6 +8,15 @@ import java.util.List;
 public class SubItemDes {
     private String add;
     private List<String> fam;
+    private int size;
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
 
     public String getAdd() {
         return add;
@@ -30,6 +39,7 @@ public class SubItemDes {
         return "SubItemDes{" +
                 "add='" + add + '\'' +
                 ", fam=" + fam +
+                ", size=" + size +
                 '}';
     }
 }
