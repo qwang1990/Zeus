@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.zeus.MappingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-06T11:59:18" hostname="X-Man.local" time="0.464">
+<testsuite name="com.zeus.MappingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-07T02:46:17" hostname="X-Man.local" time="0.385">
   <properties/>
-  <testcase name="testCustomMapKey" classname="com.zeus.MappingTest" time="0.464"/>
-  <system-out><![CDATA[birthday--->Wed Apr 06 19:59:18 CST 2016
-password--->qi
-map's alive--->true
-subItem--->SubItem{address='shanghai', family=[wang, qi]}
-age--->1
-status--->SUCCESS
-username--->wang
+  <testcase name="testCollection" classname="com.zeus.MappingTest" time="0.385"/>
+  <system-out><![CDATA[DestinationObject{username='wang', password='qi', age=1, gender='true', destinatoinStatus=SUCCESS, subItemDes=SubItemDes{add='shanghai', fam=[wang, qi]}, date=Thu Apr 07 10:46:17 CST 2016}
+DestinationObject{username='wang', password='qi', age=1, gender='true', destinatoinStatus=SUCCESS, subItemDes=SubItemDes{add='shanghai', fam=[wang, qi]}, date=Thu Apr 07 10:46:17 CST 2016}
 ]]></system-out>
   <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.dozer.config.GlobalSettings).
 log4j:WARN Please initialize the log4j system properly.

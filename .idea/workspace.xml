@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a4982b-d9b5-4ceb-83ba-2cbe8b0eb6c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java" afterPath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/util/DozerHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/Dozer-learn/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/MappingTrigger.class" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/main/com/zeus/MappingTrigger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/classes/test/com/zeus/MappingTest.class" afterPath="$PROJECT_DIR$/Dozer-learn/build/classes/test/com/zeus/MappingTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin.idx" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/output.bin.idx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/results.bin" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/binary/test/results.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/classes/com.zeus.MappingTest.html" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/classes/com.zeus.MappingTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/index.html" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/packages/com.zeus.html" afterPath="$PROJECT_DIR$/Dozer-learn/build/reports/tests/packages/com.zeus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/build/test-results/TEST-com.zeus.MappingTest.xml" afterPath="$PROJECT_DIR$/Dozer-learn/build/test-results/TEST-com.zeus.MappingTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java" afterPath="$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java" />
     </list>
     <ignored path="Zeus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,26 +36,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="mapMapping.xml" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/resources/mapMapping.xml">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.86153847">
-                    <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Dozer-learn">
@@ -48,6 +45,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/Dozer-learn">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <PATH>
@@ -75,16 +75,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mapping.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.dozer/dozer/5.4.0/a0a0d469e02ca56bcb40d9cffb6b9ba4dfbed989/dozer-5.4.0-sources.jar!/org/dozer/Mapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -162,51 +152,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MappingTrigger.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MappingTrigger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.085910656">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MappingTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mapper.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.dozer/dozer/5.4.0/a0a0d469e02ca56bcb40d9cffb6b9ba4dfbed989/dozer-5.4.0-sources.jar!/org/dozer/Mapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapMapping.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/resources/mapMapping.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.333333">
+              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MappingTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.5408163">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1317#1332#0" expanded="true" />
-                <element signature="e#1862#1877#0" expanded="true" />
+                <element signature="e#1352#1367#0" expanded="true" />
+                <element signature="e#1897#1912#0" expanded="true" />
+                <element signature="e#2242#2256#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DozerBeanMapper.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.dozer/dozer/5.4.0/a0a0d469e02ca56bcb40d9cffb6b9ba4dfbed989/dozer-5.4.0-sources.jar!/org/dozer/DozerBeanMapper.java">
+      <file leaf-file-name="DozerHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/util/DozerHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
-                <element signature="e#3950#3951#0" expanded="true" />
-                <element signature="e#3997#3998#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#53227#0" expanded="false" />
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -507,10 +504,11 @@
         <option value="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/domain/SubItemDes.java" />
         <option value="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/object/SubItem.java" />
         <option value="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/object/SourceObject.java" />
-        <option value="$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java" />
         <option value="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/domain/DestinationObject.java" />
         <option value="$PROJECT_DIR$/Dozer-learn/src/main/resources/mapMapping.xml" />
         <option value="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java" />
+        <option value="$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/util/DozerHelper.java" />
+        <option value="$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java" />
       </list>
     </option>
   </component>
@@ -522,9 +520,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-1057" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="x" value="309" />
+    <option name="y" value="-981" />
+    <option name="width" value="1421" />
+    <option name="height" value="919" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -669,106 +668,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="object" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dozer-learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dozer-learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zeus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="object" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SourceObject.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dozer-learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dozer-learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zeus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dozer-learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dozer-learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zeus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DestinationObject.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -787,7 +688,12 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wangqi/workspace/zeus/Zeus/Dozer-learn/src/main/java/com/zeus/object/SourceObject.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.testCustomMapKey">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zeus" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.testCollection">
     <configuration default="false" name="MappingTrigger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -852,6 +758,25 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$/Dozer-learn" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.zeus.MappingTest.testCustomMapKey&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanTest" />
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="testCollection" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Dozer-learn" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.zeus.MappingTest.testCollection&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -1165,23 +1090,25 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MappingTrigger" />
       <item index="1" class="java.lang.String" itemvalue="Gradle.testNormal" />
       <item index="2" class="java.lang.String" itemvalue="Gradle.testMapVSObject" />
       <item index="3" class="java.lang.String" itemvalue="Gradle.testCustomMapKey" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.testCollection" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.testCustomMapKey" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.testMapVSObject" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.testNormal" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MappingTrigger" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.testCollection" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.testNormal" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.testCustomMapKey" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.testMapVSObject" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MappingTrigger" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1459923358225" />
+    <option name="lastUpdateTimestamp" value="1459996989499" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -1200,39 +1127,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testCustomMapKey - 2016.04.06 at 19h 48m 20s.xml">
-      <configuration name="testCustomMapKey" configurationId="GradleRunConfiguration" />
+    <history-entry file="testCollection - 2016.04.07 at 10h 24m 36s.xml">
+      <configuration name="testCollection" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="testCollection - 2016.04.07 at 10h 28m 06s.xml">
+      <configuration name="testCollection" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="testCollection - 2016.04.07 at 10h 31m 39s.xml">
+      <configuration name="testCollection" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="testCollection - 2016.04.07 at 10h 35m 54s.xml">
+      <configuration name="testCollection" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="testCollection - 2016.04.07 at 10h 44m 00s.xml">
+      <configuration name="testCollection" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="testCollection - 2016.04.07 at 10h 46m 17s.xml">
+      <configuration name="testCollection" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="testCustomMapKey - 2016.04.06 at 19h 59m 18s.xml">
       <configuration name="testCustomMapKey" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="testMapVSObject - 2016.04.06 at 19h 44m 34s.xml">
-      <configuration name="testMapVSObject" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="testMapVSObject - 2016.04.06 at 19h 45m 38s.xml">
-      <configuration name="testMapVSObject" configurationId="GradleRunConfiguration" />
+    <history-entry file="testCustomMapKey - 2016.04.07 at 10h 23m 51s.xml">
+      <configuration name="testCustomMapKey" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="testMapVSObject - 2016.04.06 at 19h 59m 06s.xml">
       <configuration name="testMapVSObject" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="testNormal - 2016.04.06 at 19h 52m 48s.xml">
-      <configuration name="testNormal" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="testNormal - 2016.04.06 at 19h 56m 01s.xml">
-      <configuration name="testNormal" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="testNormal - 2016.04.06 at 19h 56m 17s.xml">
-      <configuration name="testNormal" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="testNormal - 2016.04.06 at 19h 57m 03s.xml">
-      <configuration name="testNormal" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="testNormal - 2016.04.06 at 19h 58m 06s.xml">
+    <history-entry file="testNormal - 2016.04.07 at 10h 28m 41s.xml">
       <configuration name="testNormal" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="309" y="-981" width="1421" height="919" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1241,12 +1168,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06632125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49214026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16027689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21827412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1286,7 +1213,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,7 +1311,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1405,14 +1336,6 @@
             <element signature="e#3950#3951#0" expanded="true" />
             <element signature="e#3997#3998#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dozer-learn/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1474,18 +1397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1317#1332#0" expanded="true" />
-            <element signature="e#1862#1877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/domain/DestinationObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1504,19 +1415,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.dozer/dozer/5.4.0/a0a0d469e02ca56bcb40d9cffb6b9ba4dfbed989/dozer-5.4.0-sources.jar!/org/dozer/Mapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.085910656">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/resources/mapMapping.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86153847">
-          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        <state vertical-scroll-proportion="-10.333333">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dozer-learn/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/MappingTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/main/java/com/zeus/util/DozerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dozer-learn/src/test/java/com/zeus/MappingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5408163">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1352#1367#0" expanded="true" />
+            <element signature="e#1897#1912#0" expanded="true" />
+            <element signature="e#2242#2256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1588,7 +1538,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -4,8 +4,10 @@ import com.zeus.domain.DestinationObject;
 import com.zeus.object.SourceObject;
 import com.zeus.object.SubItem;
 import org.dozer.DozerBeanMapper;
+import com.zeus.util.DozerHelper;
 import org.junit.Before;
 import org.junit.Test;
+
 
 import java.util.*;
 
@@ -72,4 +74,20 @@ public class MappingTest {
 
     }
 
+    @Test
+    public void testCollection() {
+        List<SourceObject> sourceObjects = new ArrayList<SourceObject>();
+        sourceObjects.add(sourceObject);
+        sourceObjects.add(sourceObject);
+
+        //destinationObjects = new ArrayList<DestinationObject>();
+
+        //mapper.map(sourceObjects,destinationObjects);
+       // mapper.map();
+        List<DestinationObject>  destinationObjects = DozerHelper.map(mapper,sourceObjects,DestinationObject.class);
+
+        for (DestinationObject d : destinationObjects) {
+            System.out.println(d);
+        }
+    }
 }
