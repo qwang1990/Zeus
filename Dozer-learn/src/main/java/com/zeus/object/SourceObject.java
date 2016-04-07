@@ -2,6 +2,7 @@ package com.zeus.object;
 
 import org.dozer.Mapping;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -25,8 +26,18 @@ public class SourceObject {
 
     private List<SubItem> subItemList;
 
+    private LocalDate localDate;
+
   //  @Mapping("subItemDes")
     private SubItem subItem;
+
+    public LocalDate getLocalDate() {
+        return localDate;
+    }
+
+    public void setLocalDate(LocalDate localDate) {
+        this.localDate = localDate;
+    }
 
     public SourceObject() {
         status = Status.SUCCESS;
@@ -107,6 +118,7 @@ public class SourceObject {
                 ", alive=" + alive +
                 ", birthday=" + birthday +
                 ", subItemList=" + subItemList +
+                ", localDate=" + localDate +
                 ", subItem=" + subItem +
                 '}';
     }

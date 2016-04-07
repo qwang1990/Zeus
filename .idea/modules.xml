@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Dozer-learn/Dozer-learn.iml" filepath="$PROJECT_DIR$/Dozer-learn/Dozer-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../dozerLocalDate/dozer-jdk8-support/dozer-jdk8-support.iml" filepath="$PROJECT_DIR$/../../dozerLocalDate/dozer-jdk8-support/dozer-jdk8-support.iml" />
     </modules>
   </component>
 </project>

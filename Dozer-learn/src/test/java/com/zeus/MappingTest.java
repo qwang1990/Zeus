@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 
+import java.time.LocalDate;
 import java.util.*;
 
 /**
@@ -28,6 +29,7 @@ public class MappingTest {
          */
         List myMappingFiles = new ArrayList();
         myMappingFiles.add("mapMapping.xml");
+        myMappingFiles.add("dozerJdk8Converters.xml");
         mapper.setMappingFiles(myMappingFiles);
 
 
@@ -39,6 +41,7 @@ public class MappingTest {
         sourceObject.setBirthday(new Date());
         sourceObject.setSubItem(new SubItem("shanghai", Arrays.asList("wang","qi"),1));
         sourceObject.setSubItemList(Arrays.asList(new SubItem("shanghai1", Arrays.asList("wang1","qi1"),2),new SubItem("shanghai2", Arrays.asList("wang2","qi2"),3)));
+        sourceObject.setLocalDate(LocalDate.parse("2014-02-28"));
     }
 
     //

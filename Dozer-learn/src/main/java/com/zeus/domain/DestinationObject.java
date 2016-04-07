@@ -3,6 +3,7 @@ package com.zeus.domain;
 import com.zeus.object.SubItem;
 import org.dozer.Mapping;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -19,10 +20,19 @@ public class DestinationObject {
     private long age;
     private String gender;
     private DestinatoinStatus destinatoinStatus;
+    private LocalDate localDate;
 
     private SubItemDes subItemDes;
 
     private List<SubItemDes> subItemList;
+
+    public LocalDate getLocalDate() {
+        return localDate;
+    }
+
+    public void setLocalDate(LocalDate localDate) {
+        this.localDate = localDate;
+    }
 
     public SubItemDes getSubItemDes() {
         return subItemDes;
@@ -98,6 +108,7 @@ public class DestinationObject {
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
                 ", destinatoinStatus=" + destinatoinStatus +
+                ", localDate=" + localDate +
                 ", subItemDes=" + subItemDes +
                 ", subItemList=" + subItemList +
                 ", date=" + date +
