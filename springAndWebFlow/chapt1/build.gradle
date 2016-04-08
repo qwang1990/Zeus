@@ -1,0 +1,64 @@
+group 'chapt1'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile(
+    // Spring all
+    'org.springframework:spring-aop:3.2.15.RELEASE',
+
+    //'org.springframework:spring-asm:3.2.15.RELEASE',
+    //'org.springframework:spring-asm:3.1.14.RELEASE',
+
+    'org.springframework:spring-aspects:3.2.15.RELEASE',
+    'org.springframework:spring-beans:3.2.15.RELEASE',
+    'org.springframework:spring-context:3.2.15.RELEASE',
+    'org.springframework:spring-context-support:3.2.15.RELEASE',
+    'org.springframework:spring-core:3.2.15.RELEASE',
+    'org.springframework:spring-expression:3.2.15.RELEASE',
+    'org.springframework:spring-jdbc:3.2.15.RELEASE',
+    'org.springframework:spring-jms:3.2.15.RELEASE',
+    'org.springframework:spring-orm:3.2.15.RELEASE',
+    'org.springframework:spring-oxm:3.2.15.RELEASE',
+    'org.springframework:spring-test:3.2.15.RELEASE',
+    'org.springframework:spring-tx:3.2.15.RELEASE',
+    'org.springframework:spring-web:3.2.15.RELEASE',
+    'org.springframework:spring-webmvc:3.2.15.RELEASE',
+    'org.springframework:spring-webmvc-portlet:3.2.15.RELEASE',
+              // servlet api
+            'javax.servlet:javax.servlet-api:3.1.0',
+            'javax.servlet:jstl:1.2',
+
+
+            'junit:junit:4.12',  // junit
+
+            // log4j and slfj
+            'log4j:log4j:1.2.16',
+            'org.slf4j:slf4j-api:1.6.6',
+            'org.slf4j:slf4j-log4j12:1.6.6',
+            'org.freemarker:freemarker:2.3.19'
+    )
+}
+
+jettyRun{
+    webAppSourceDirectory file("$projectDir/src/main/webapp")
+    httpPort 8288
+    contextPath project.name
+    scanIntervalSeconds 0
+    reload "automatic"
+}
