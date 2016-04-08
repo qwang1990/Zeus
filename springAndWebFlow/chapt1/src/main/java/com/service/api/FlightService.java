@@ -1,6 +1,7 @@
 package com.service.api;
 
 import com.object.Flight;
+import com.object.FlightSearchCriteria;
 import com.object.SpecialDeal;
 
 import java.util.List;
@@ -10,5 +11,5 @@ import java.util.List;
  */
 public interface FlightService {
     List<SpecialDeal> getSpecialDeals();
- //   List<Flight> findFlights(SearchFlights search);
+    List<Flight> findFlights(FlightSearchCriteria search);
 }

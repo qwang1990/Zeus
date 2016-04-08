@@ -2,6 +2,7 @@ package com.object;
 
 
 import java.math.BigDecimal;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -17,6 +18,12 @@ public class Flight {
         this.legs = legs;
         this.totalCost = totalCost;
     }
+
+    public Flight() {
+        legs = Arrays.asList(new FlightLeg(),new FlightLeg());
+        totalCost = BigDecimal.TEN;
+    }
+
     public BigDecimal getTotalCost() {
         return totalCost;
     }

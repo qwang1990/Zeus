@@ -18,6 +18,14 @@ public class FlightLeg {
         this.departFrom = departFrom;
         this.departOn = departOn;
     }
+
+    public FlightLeg() {
+        departFrom = new Airport("beijing","1");
+        arriveAt = new Airport("shanghai","2");
+        departOn = new Date();
+        arriveOn = new Date();
+    }
+
     public Airport getArriveAt() {
         return arriveAt;
     }
