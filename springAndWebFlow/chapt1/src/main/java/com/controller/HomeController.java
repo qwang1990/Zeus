@@ -18,7 +18,6 @@ public class HomeController extends AbstractController {
         setCacheSeconds(FIVE_MINUTES);
     }
     public void setFlightService(FlightService flightService) {
-        System.out.println("~~~~~~~~~");
         this.flights = flightService;
     }
     @Override
@@ -27,5 +26,12 @@ public class HomeController extends AbstractController {
         ModelAndView mav = new ModelAndView("home");
         mav.addObject("specials", flights.getSpecialDeals());
         return mav;
-    } }
+    }
+
+    @Override
+    public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response)
+            throws Exception {
+        return new ModelAndView("home");
+    }
+}
 
