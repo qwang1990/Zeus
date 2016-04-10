@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NestedCommandBeanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-10T09:29:24" hostname="X-Man.local" time="0.156">
+  <properties/>
+  <testcase name="testSimpleBind" classname="NestedCommandBeanTest" time="0.156"/>
+  <system-out><![CDATA[NestedCommandBean{name=Name{firstName='Anya', lastName='Lala'}}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
