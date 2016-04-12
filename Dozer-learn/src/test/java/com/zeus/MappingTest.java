@@ -48,8 +48,10 @@ public class MappingTest {
     @Test
     public void testNormal() {
         System.out.println(sourceObject);
-        DestinationObject destObject =
-                mapper.map(sourceObject, DestinationObject.class);
+        DestinationObject destObject = new DestinationObject();
+        destObject.setSpecialValue("我是不变的");
+        //mapper.map(sourceObject, destObject);
+        DozerHelper.map(mapper,sourceObject,destObject);
         System.out.println(destObject);
     }
 

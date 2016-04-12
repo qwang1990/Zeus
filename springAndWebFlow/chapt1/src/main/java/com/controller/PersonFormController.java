@@ -23,7 +23,7 @@ public class PersonFormController extends SimpleFormController {
         setCommandName("person");
         setCommandClass(Person.class);
         setFormView("newPerson");
-        setSuccessView("newPersonSuccess");
+        setSuccessView("redirect:/PersonSuccess");
     }
 
     @Override
@@ -46,11 +46,15 @@ public class PersonFormController extends SimpleFormController {
         Map<String, Object> model = new HashMap<String, Object>();
         model.put("suggestedBook",
                 suggestBook(person.getFavoriteProgrammingLanguage()));
-        model.put(getCommandName(), person);
+       // model.put(getCommandName(), person);
+        System.out.println(person.getName());
+        model.put("personName", person.getName().getFirstName()+","+person.getName().getLastName());
+        model.put("personFavoriteProgrammingLanguage",
+                person.getFavoriteProgrammingLanguage());
         return new ModelAndView(getSuccessView(), model);
     }
     private String suggestBook(String favoriteProgrammingLanguage) {
       //  Language language = Language.create(favoriteProgrammingLanguage);
-        return "c语言从入门到放弃....";
+        return "c语言从入门到放弃";
     }
 }

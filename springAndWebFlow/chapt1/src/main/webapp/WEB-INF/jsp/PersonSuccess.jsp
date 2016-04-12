@@ -6,8 +6,7 @@
 <title>New Person Success</title>
 </head>
 <body>
-Welcome, ${person.name}! You chose ${person.favoriteProgrammingLanguage}
-as your favorite programming language. Therefore, we can recommend you
-check out ${suggestedBook}.
+Welcome, ${param.personName}! You chose ${param.personFavoriteProgrammingLanguage} as your favorite programming language. Therefore, we can recommend you
+check out ${param.suggestedBook}.
 </body>
 </html>

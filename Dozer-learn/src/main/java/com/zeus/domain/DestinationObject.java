@@ -26,6 +26,16 @@ public class DestinationObject {
 
     private List<SubItemDes> subItemList;
 
+    private String specialValue;
+
+    public String getSpecialValue() {
+        return specialValue;
+    }
+
+    public void setSpecialValue(String specialValue) {
+        this.specialValue = specialValue;
+    }
+
     public LocalDate getLocalDate() {
         return localDate;
     }
@@ -111,6 +121,7 @@ public class DestinationObject {
                 ", localDate=" + localDate +
                 ", subItemDes=" + subItemDes +
                 ", subItemList=" + subItemList +
+                ", specialValue='" + specialValue + '\'' +
                 ", date=" + date +
                 '}';
     }

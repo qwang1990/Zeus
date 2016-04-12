@@ -1,1 +1,33 @@
 # Created by .ignore support plugin (hsz.mobi)
+* -sw?
+.#*
+*#
+*~
+.classpath
+.project
+.settings
+build
+target
+dependency-reduced-pom.xml
+*.sublime-*
+/scratch
+/bin
+/lib
+/libs
+.gradle
+README.html
+.idea
+gradle
+gradlew
+gradlew.bat
+*.iml
+*.ipr
+*.iws
+.DS_Store
+/logs
+/files
+*.rdb
+workbench.xmi
+/modules/*.jar
+/site-modules
+*.log

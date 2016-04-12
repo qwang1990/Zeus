@@ -28,4 +28,10 @@ public class DozerHelper {
 
         return dest;
     }
+
+    public static <T, U> U map(final Mapper mapper,final T source,final U dest) {
+        mapper.map(source,dest);
+        return dest;
+    }
+
 }

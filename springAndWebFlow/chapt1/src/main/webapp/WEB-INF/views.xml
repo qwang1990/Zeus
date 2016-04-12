@@ -1,0 +1,10 @@
+<?xml version="1.0"?> <!DOCTYPE beans PUBLIC
+        "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="newPersonSuccess"
+          class="org.springframework.web.servlet.view.RedirectView">
+        <property name="contextRelative" value="true" />
+        <property name="url" value="/PersonSuccess" />
+    </bean>
+</beans>
