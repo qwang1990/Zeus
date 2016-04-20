@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <servlet>
+    <servlet-name>SSOAuth</servlet-name>
+    <servlet-class>com.ghsau.servlet.SSOAuth</servlet-class>
+    <init-param>
+      <param-name>cookieName</param-name>
+      <param-value>SSOID</param-value>
+    </init-param>
+    <init-param>
+      <param-name>domainName</param-name>
+      <param-value>.ghsau.com</param-value>
+    </init-param>
+    <init-param>
+      <param-name>secure</param-name>
+      <param-value>false</param-value>
+    </init-param>
+    <init-param>
+      <param-name>secretKey</param-name>
+      <param-value>111111112222222233333333</param-value>
+    </init-param>
+    <init-param>
+      <param-name>ticketTimeout</param-name>
+      <param-value>10080</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SSOAuth</servlet-name>
+    <url-pattern>/SSOAuth</url-pattern>
+  </servlet-mapping>
+</web-app>
