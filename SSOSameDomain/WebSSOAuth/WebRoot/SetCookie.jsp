@@ -4,4 +4,4 @@
 	cookie.setPath("/");
 	cookie.setDomain(".ghsau.com");
 	response.addCookie(cookie);
-%>
+%t >
