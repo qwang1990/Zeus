@@ -3,6 +3,9 @@ package com.sender;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Properties;
 
 
@@ -45,9 +48,12 @@ public class MailSender {
      * @param args
      */
     public static void main(String[] args) {
-        if (args.length != 3) {
-            System.out.println("请输入正确参数(目的邮箱,主题,内容)");
+        if (args.length < 3) {
+            System.out.println("请输入正确参数(主题,内容,目的邮箱1)");
         }
-        MailSender.sendSimpleMail(args[0],args[1],args[2]);
+
+        for(int i = 2;i<args.length;i++) {
+            MailSender.sendSimpleMail(args[i],args[0],args[1]);
+        }
     }
 }

@@ -1,0 +1,33 @@
+group 'WebSSOAuth'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'maven'           // 发布artifacts
+apply plugin: 'groovy'
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile (
+            'javax.servlet:javax.servlet-api:3.1.0'
+    )
+}
+
+jettyRun{
+    webAppSourceDirectory file("$projectDir/WebRoot")
+    httpPort 8288
+    contextPath project.name
+    scanIntervalSeconds 0
+    reload "automatic"
+}
+

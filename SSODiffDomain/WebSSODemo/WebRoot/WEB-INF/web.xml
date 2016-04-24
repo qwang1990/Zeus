@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>WebSSODemo</display-name>
+  <filter>
+    <filter-name>SSOAuth</filter-name>
+    <filter-class>com.diffdomain.filter.SSOAuth</filter-class>
+    <init-param>
+        <!-- 认证系统服务 -->
+    	<param-name>SSOService</param-name>
+    	<param-value>http://passport.com:8288/WebSSOAuth/SSOAuth</param-value>
+    </init-param>
+    <init-param>
+        <!-- 认证系统ticket名称 -->
+    	<param-name>cookieName</param-name>
+    	<param-value>SSOID</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>SSOAuth</filter-name>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>SSOAuth</filter-name>
+    <url-pattern>/logout</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>SSOAuth</filter-name>
+    <url-pattern>/setCookie</url-pattern>
+  </filter-mapping>
+</web-app>
