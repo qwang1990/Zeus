@@ -31,3 +31,4 @@ workbench.xmi
 /modules/*.jar
 /site-modules
 *.log
+node_modules
