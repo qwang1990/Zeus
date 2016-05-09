@@ -29,9 +29,10 @@ dependencies {
 }
 
 jettyRun{
-    webAppSourceDirectory file("$projectDir/src/main/java")
+    webAppSourceDirectory file("$projectDir/src/main/java/com/wisely/")
+    additionalRuntimeJars WebInitializer*.
     httpPort 8288
-    /*contextPath project.name*/
+    contextPath project.name
     scanIntervalSeconds 0
     reload "automatic"
 }
