@@ -1,0 +1,50 @@
+group 'sendmail'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+//apply plugin: 'application'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile("org.apache.httpcomponents:httpcomponents-client:4.3.6")
+    compile("commons-codec:commons-codec:1.9");
+    compile('org.apache.commons:commons-lang3:3.3.2')
+    compile('com.google.guava:guava:18.0')
+
+    compile("com.googlecode.log4jdbc:log4jdbc:1.2")
+
+    compile("me.chanjar:weixin-java-mp:1.1.6") //微信支持
+    compile('com.google.zxing:core:3.2.1')     //二维码生成器
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile('org.apache.poi:poi:3.12')
+    compile('org.apache.poi:poi-ooxml:3.11')
+    compile('org.pegdown:pegdown:1.6.0')
+    compile('org.xhtmlrenderer:flying-saucer-core:9.0.7')
+    compile('org.xhtmlrenderer:flying-saucer-pdf-itext5:9.0.7')
+    compile('org.apache.tika:tika-core:1.7')
+    compile('com.belerweb:pinyin4j:2.5.0')         //汉字转拼音 lxj 2015-01-21
+    compile('javax.mail:javax.mail-api:1.5.2')
+    compile('com.sun.mail:javax.mail:1.5.2')
+    compile("com.fasterxml.jackson.core:jackson-databind:2.7.4")
+
+    compile("org.springframework:spring-context-support:4.0.7.RELEASE")
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': version,
+                'Main-Class': 'com.sendmail.MailMessage'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
