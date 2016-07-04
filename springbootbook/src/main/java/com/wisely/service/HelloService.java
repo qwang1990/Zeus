@@ -6,7 +6,7 @@ package com.wisely.service;
 public class HelloService {
     private String msg;
 
-    public String sayHellp() {
+    public String sayHello() {
         return "hello"+msg;
     }
 

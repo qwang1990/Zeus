@@ -10,6 +10,9 @@ buildscript {
 	}
 }
 
+group 'com.wisely'
+version '1.0.0-SNAPSHOT'
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot' 

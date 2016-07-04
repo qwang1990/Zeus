@@ -2,6 +2,7 @@ package com.wisely;
 
 import com.lowagie.text.DocumentException;
 import com.wisely.config.AuthorSettings;
+import com.wisely.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -21,10 +22,20 @@ public class DemoApplication {
     @Autowired
     private AuthorSettings authorSettings;
 
+    @Autowired
+    HelloService helloService;
+
 	@RequestMapping(value = "/")
     String index() throws IOException, DocumentException {
         return "hello world "+authorSettings.getName() + " age: "+authorSettings.getAge();
     }
+
+    @RequestMapping(value = "/hello")
+    String hello() throws IOException, DocumentException {
+        return helloService.sayHello();
+    }
+
+
 
 
 	public static void main(String[] args) {
