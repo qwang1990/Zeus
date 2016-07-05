@@ -1,4 +1,4 @@
-package com.wisely.config;
+package config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

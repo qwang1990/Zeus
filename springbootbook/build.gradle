@@ -4,6 +4,7 @@ buildscript {
 	}
 	repositories {
 		mavenCentral()
+        mavenLocal()
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") 
@@ -13,6 +14,7 @@ buildscript {
 group 'com.wisely'
 version '1.0.0-SNAPSHOT'
 
+apply plugin: 'maven'     // 生成bin lib的distribution :  gradle distTar
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot' 
@@ -26,8 +28,10 @@ targetCompatibility = 1.8
 
 repositories {
 	mavenCentral()
+    mavenLocal()
 }
 
+def home = System.getenv("HOME");
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
@@ -35,8 +39,17 @@ dependencies {
     compile('org.xhtmlrenderer:core-renderer:R8')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    compile('testauto:testauto:1.0-SNAPSHOT')
 }
 
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://$home/.m2/repository")
+        }
+    }
+}
 
 eclipse {
 	classpath {

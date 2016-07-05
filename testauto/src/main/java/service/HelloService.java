@@ -1,4 +1,4 @@
-package com.wisely.service;
+package service;
 
 /**
  * Created by wangqi on 16/7/4.
